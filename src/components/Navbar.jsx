@@ -26,13 +26,13 @@ export default function Navbar(){
   return(
     <div className={` h-16 w-full ${stickyClass}`}>
 
+        {/* <div className=' mr-4 sm:text-4xl'> */}
         <div className=' px-2 flex justify-between items-center w-full h-full'>
           <div className='flex items-center'>
-            {/* <h1 className='text-3xl font-bold mr-4 sm:text-4xl'>BRAND.</h1> */}
-            <img src={Logo} className='w-48 h-20 ml-10 mr-4 my-9'/>
+            <img src={Logo} className='w-48 h-20 ml-10 mt-20 mr-4 my-9'/>
           </div>
 
-          <div className=' pr-4 mr-10 mt-1 text-white hidden md:flex'>
+          <div className=' pr-4 mt-1 text-white hidden md:flex'>
           <ul className="flex space-x-4 underline-offset-4">
            <li className="p-4 hover:underline hover:decoration-white decoration-2">Services</li>
            <li className="p-4 hover:underline hover:decoration-white decoration-2">Work</li>
